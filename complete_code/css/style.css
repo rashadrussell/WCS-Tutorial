@@ -1,0 +1,148 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arimo, sans-serif;
+}
+
+#header {
+	height: 700px;
+	background: url('../images/header_bg_image.jpg');
+	overflow: hidden;
+}
+
+#header .nav {
+	list-style: none;
+	color: #fff;
+	text-align: center;
+}
+
+#header .nav li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+#header .nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .banner {
+	width: 700px;
+	margin: 0px auto;
+	margin-top: 125px;
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	font-weight: bolder;
+}
+
+#header .banner p {
+	margin: 0px;
+}
+
+#header .banner .sub-title {
+	margin-top: 0px;
+	border-top: solid 1px #fff;
+}
+
+.content-row {
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 50px 0px 50px 0;
+	overflow: hidden;
+}
+
+.left-column {
+	float: left;
+	margin-right: 100px;
+}
+
+.left-column .title {
+	margin-top: 0px;
+}
+
+.right-column {
+	width: 700px;
+	float: right;
+}
+
+.right-column h1, .right-column h2, 
+.right-column h3, .right-column h4, 
+.right-column h5, .right-column h6 {
+	margin-top: 0px;
+}
+
+#about {
+	background: #2b2b2b;
+}
+
+#about .avatar {
+	width: 120px;
+	height: 120px;
+	background: #ccc;
+	border-radius: 100;
+}
+
+#about .description {
+	margin-top: 0px;
+}
+
+#about .description h2 {
+	color: #fff;
+}
+
+#about .description p {
+	margin-top: 0px;
+	line-height: 25px;
+	color: #7a7a7a;
+}
+
+#interests .content, #skills .content {
+	border-bottom: solid 1px #ddd;
+}
+
+.skill-bar {
+	width: 700px;
+	height: 50px;
+	margin-bottom: 25px;
+	background: #ccc;
+	border-radius: 3px;
+}
+
+.skill-bar-foreground {
+	height: 50px;
+	display: block;
+	background: #2b2b2b;
+	border-radius: 3px;
+}
+
+.skill-html5 {	width: 600px; }
+.skill-css3 {	width: 520px; }
+.skill-javascript {	width: 650px; }
+.skill-python {	width: 400px; }
+.skill-photoshop {	width: 450px; }
+
+.hack {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0px 0px 10px 10px;
+	background: #ccc;
+}
+
+#footer {
+	margin-top: 50px;
+	font-size: 12px;
+	text-align: center;
+	color: #999;
+}
+
+
+
